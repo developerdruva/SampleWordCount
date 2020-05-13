@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pythonpage</title>
+</head>
+<body>
+    <h1>Hello there.....!</h1>
+    <h2>type your text in the field</h2>
+    <a href="{% url 'aboutus' %}">About Us</a>
+    <form action="{% url 'count' %}" >
+        <textarea name="matter" cols="100" rows="10" ></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>

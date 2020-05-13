@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <style>
+        .div1{
+            border: 2px solid blue;
+            position: absolute;
+            left:200px;
+            top:200px;
+            width:1000px;
+            height: 300px;
+            background: lightgreen;
+            border-radius: 10px;
+            text-align: center;
+            }
+        .div2{
+            position: absolute;
+            left: 400px;
+            border: 2px solid aqua;
+            width: 150px;
+            height:150px;
+            border-radius: 25px;
+            }
+        .img1{
+            width:100%;
+            height:100%;
+            border-radius: 25px;
+            }
+        h1{
+            position: absolute;
+            top:100px;
+            left:600px;
+            }
+    </style>
+</head>
+<body bgcolor="lightblue">
+    <h1>About Us</h1>
+    <div class="div1">
+        <p>
+            This is <b><i>Rajesh Kumar Sannala.</i></b> Hello there.....! <br>
+            This is example site developed to learn django framework. In order to learn djnago framework using python i'm
+            using pycharm tool. django framework follows model view template architechture.
+        </p>
+        <div class="div2">
+
+        </div>
+    </div>
+    <a href="{% url 'home' %}">HomePage</a>
+</body>
+</html>
